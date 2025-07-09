@@ -1,0 +1,43 @@
+#add-button{
+  background-color: green;
+  padding: 8px 30px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#add-button:hover{
+  opacity: 0.7;
+}
+#js-name-input{
+  padding: 6px;
+}
+#js-due-date-input{
+  padding: 8px;
+}
+.js-todo-list, .top{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  /* background-color: red; */
+  width: 100%;
+}
+.top{
+  margin-bottom: 20px;
+}
+.js-todo-list button{
+  background-color: rgb(147, 9, 9);
+  color: white;
+  padding: 9px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+.js-todo-list button:hover{
+  opacity: 0.6;
+}
+.js-todo-list{
+  line-height: 32px;
+}
