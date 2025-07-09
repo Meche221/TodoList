@@ -1,10 +1,4 @@
-const todoList =[{
-  name:'make dinner',
-  dueDate: '2022/09/11'},
-  {
-  name:'wash dishes',
-  dueDate: '2025/06/29'
-}]; 
+const todoList =[]; 
 
 renderTodoList();
 
